@@ -5,6 +5,7 @@ phases:
       - terraform init
       - terraform validate
   
+  
   build:
     commands:
       - terraform plan
